@@ -1,14 +1,7 @@
-### Termos de acordos
-
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
-
 # Boas vindas ao repositório do projeto ES6 Testes Unitários!
 
-Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções à seguir. Tenha atenção a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
-
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto à partir deste repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
-
-
+Projeto desenvolvido como requisito parcial para a conclusão do módulo Fundamentos do Desenvolvimento Web do curso de Desenvolvimento Web da Trybe. Este projeto tem como objetivo colocar em prática os conhecimentos e habilidades adquiridos com escrita de **testes unitários** para funções em **JavaScript**, conforme requisitos descritos a seguir. Para isso, utiliza-se o módulo **Assert** do **NodeJS** para validar o funcionamento adequado destas funções. Ademais, a partir de testes já implementados, também são implementadas funções que atendam aos requisitos dos testes propostos. Em resumo, a ideia central é utilizar uma abordagem de **desenvolvimento orientado a testes** (**Test Driven Development - TDD**)
+ 
 ---
 
 ## SUMÁRIO
@@ -39,17 +32,11 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 ## Habilidades
 
-Nesse projeto, você será capaz de:
+Nesse projeto, são trabalhadas as seguintes habilidades:
 
-- Escrever testes unitários para funções utilizando o módulo Assert do NodeJS para verificar o correto funcionamento dessas funções;
-- A partir de testes já implementados, escrever funções de forma que elas atendam aos testes propostos;
-- Escrever testes e funções utilizando uma abordagem de desenvolvimento orientado a testes (TDD).
-
----
-
-## O que será desenvolvido
-
-Você implementará várias funções para atender aos requisitos propostos e/ou testes unitários para garantir que as implementações das funções estão corretas.
+- Escrita de testes unitários para funções utilizando o módulo Assert do NodeJS para verificar o correto funcionamento dessas funções;
+- A partir de testes já implementados, escrita de funções de forma que elas atendam aos testes propostos;
+- Escrita de testes e funções utilizando uma abordagem de desenvolvimento orientado a testes (Test Driven Development - TDD).
 
 ---
 
@@ -57,65 +44,9 @@ Você implementará várias funções para atender aos requisitos propostos e/ou
 
   - Projeto individual;
 
-  - Será um dia de projeto;
+  - Foi um dia de projeto;
 
   - O projeto tem até a seguinte data: `02/04/2021 - 14:00h` para ser entregue a avaliação final.
-
----
-
-## Como desenvolver
-
-### Antes de começar a desenvolver:
-
-1. Clone o repositório
-  * `git clone git@github.com:tryber/sd-010-a-project-js-unit-tests.git`.
-  * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-010-a-project-js-unit-tests`
-
-2. Instale as dependências
-  * `npm install`
-
-3. Crie uma branch a partir da branch `master`
-  * Verifique que você está na branch `master`
-    * Exemplo: `git branch`
-  * Se não estiver, mude para a branch `master`
-    * Exemplo: `git checkout master`
-  * Agora crie uma branch para qual você vai submeter os `commits` do seu projeto
-    * Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
-    * Exemplo: `git checkout -b joaozinho-js-unit-tests`
-
-4. Faça as alterações em, por exemplo, alguma das funções que precisam de implementação. Por exemplo, a `average.js` em `src/`:
-```jsx
-const average = () => {
-  // add your implementation here
-}
-
-module.exports = average
-```
-
-5. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-  * Verifique que as mudanças ainda não estão no _stage_
-    * Exemplo: `git status` (deve aparecer listado o arquivo _src/last.js_ em vermelho)
-  * Adicione o arquivo alterado ao _stage_ do Git
-      * Exemplo:
-        * `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-        * `git status` (deve aparecer listado o arquivo _src/last.js_ em verde)
-  * Faça o `commit` inicial
-      * Exemplo:
-        * `git commit -m 'iniciando o projeto. VAMOS COM TUDO :rocket:'` (fazendo o primeiro commit)
-        * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-6. Adicione a sua branch com o novo `commit` ao repositório remoto
-  * Usando o exemplo anterior: `git push -u origin joaozinho-js-unit-tests`
-
-7. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-010-a-project-js-unit-tests/pulls)
-  * Clique no botão verde _"New pull request"_
-  * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
-  * Clique no botão verde _"Create pull request"_
-  * Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
-  * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-010-a-project-js-unit-tests/pulls) e confira que o seu _Pull Request_ está criado
 
 ---
 
