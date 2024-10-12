@@ -11,7 +11,31 @@
     - average([1, 1]) // Retorno: 1;
     - average([1, '2']) // Retorno: undefined;
 */
+const verifyConditions = (param) => {
+  if (param === undefined || param.length === undefined) {
+    return undefined;
+  }
+};
 
-const average = () => {};
-
+const average = (param) => {
+  let list = param;
+  verifyConditions(list);
+  for (let key = 0; key < list.length; key += 1) {
+    if (typeof list[key] !== 'number') {
+      return undefined;
+    }
+  }
+  if (list.length > 0) {
+    const test = list.reduce((acc, curr) => acc + curr);
+    return Math.round(test / list.length);
+  }
+};
 module.exports = average;
+
+// Desenvolvida com auxílio do plantão do instrutor Eliezer e com sugestões do colega Edmilson (muito obrigada pelos insights!);
+// Sobre math.round:
+// https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/round
+// Sobre método reduce:
+// https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
+// Sobre typeof:
+// https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/typeof
